@@ -65,7 +65,7 @@ export const projectsData = [
     title: "Hospital Management System",
     description:
       "I worked as a full-stack developer on this startup project for 6 months. Users can give public feedback to companies.",
-    tags: ["Angular", "Typescript", "MSSQL", "Bootstrap", "Entity Framework"],
+    tags: ["Angular", "Typescript", "MSSQL", "Bootstrap", "ASP.Net"],
     imageUrl: corpcommentImg,
   },
   {
