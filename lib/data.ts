@@ -54,7 +54,7 @@ export const experiencesData = [
     title: "Junior Full-Stack Developer",
     location: "Addis Ababa, ET",
     description:
-      "I'm now a Junior Full-Stack Developer working on Creavers Service PLC. My stack includes Angular, React, Material UI, TypeScript, Tailwind, MySQL and MongoDB. I'm open to full-time opportunities.",
+      "I'm now a Junior Full-Stack Developer working on Creavers Service PLC. My stack includes Angular, React, Material UI, TypeScript, Tailwind, NodeJs, MySQL and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
     date: "2022 - present",
   },
@@ -64,22 +64,22 @@ export const projectsData = [
   {
     title: "Hospital Management System",
     description:
-      "I worked as a full-stack developer on this startup project for 6 months. Users can give public feedback to companies.",
+      "I worked as a full-stack developer on this startup project for 6 months. It optimize the administrative, operational, and clinical processes within a healthcare facility.",
     tags: ["Angular", "Typescript", "MSSQL", "Bootstrap", "ASP.Net"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Food Delivery App",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Food delivery app for order online. I was the mobile app developer. It has features like ordering, payment and designing.",
+    tags: ["Flutter", "Dart", "API"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Restaurant Website",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "It serves as an online hub for showcasing menus, reservations, and information to engage customers and enhance their dining experience.",
+    tags: ["Wordpress", "Elementor", "MetForm", "Slider Revolution"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
