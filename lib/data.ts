@@ -1,6 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { FaPlaystation, FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
@@ -51,16 +51,31 @@ export const experiencesData = [
     date: "May, 2021 - Sep, 2021",
   },
   {
-    title: "Junior Full-Stack Developer",
+    title: "Junior Software Developer",
     location: "Addis Ababa, ET",
     description:
-      "I'm now a Junior Full-Stack Developer working on Creavers Service PLC. My stack includes Angular, React, Material UI, TypeScript, Tailwind, NodeJs, MySQL and MongoDB. I'm open to full-time opportunities.",
+      "I'm was a Junior Software Developer working on Creavers Service PLC. My stack includes Angular, React, Material UI, TypeScript, Tailwind, NodeJs, MySQL and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2022 - present",
+    date: "2022 - 2024",
+  },
+  {
+    title: "Full-Stack Developer",
+    location: "Addis Ababa, ET",
+    description:
+      "I'm now a Full-Stack Developer working on Digital Equb Fanancial Technology PLC. My stack includes Flutter, React, Dart, Spring Boot, Tailwind, MySQL and Postgres. I'm open to full-time opportunities.",
+    icon: React.createElement(FaPlaystation),
+    date: "2024 - Present",
   },
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Digtal Equb Mobile App",
+    description:
+      "I worked as a full-stack developer on digital equb financial technology plc.",
+    tags: ["Flutter", "Dart", "Spring Boot", "React", "MySQL"],
+    imageUrl: corpcommentImg,
+  },
   {
     title: "Hospital Management System",
     description:
